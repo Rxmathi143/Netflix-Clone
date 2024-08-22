@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+  }
+  
+  .navbar_netflix {
+    height: 100%;
+    width: 125px;
+  }
+  
+  .navbar_nav_items {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .netflix_logo {
+    width: 100%;
+    height: 100%;
+  }
+  
+ .language_drop_down{
+    background: transparent;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+  }
+  
+  .dropdown_container {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0.4em;
+    border-radius: 4px;
+    background: rgb(0, 0, 0, 0.4);
+  }
+
+  .signin_button {
+    border: #dc030f;
+    background-color: #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+  }
+
+  .hero_bg_img_cont{
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero_bg_img{
+    width: 1518px;
+    height: 782px;
+    margin: 0;
+    object-fit: cover;
+  }
+
+.hero_bg_overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .hero_card{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero_title{
+    font-weight: 800;
+    font-size: 3.2rem;
+    padding-bottom: 13px;
+  }
+
+  .hero_subtitle{
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+  }
+  .hero_desc{
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 10px;
+    padding-bottom: 15px;
+  }
+  
+  .email{
+    border: 0.1px solid rgb(168, 162, 162);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(168, 162, 162);
+    padding-left: 1rem;
+    border-radius: 5px;
+    font-size: 20px;
+    left: 0%;
+    height: 60px;
+    width: 400px;
+  }
+
+  .get_started{
+    border: #dc030f;
+    background-color: #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 600;
+    height: 60px;
+    width: 230px;
+  }
+
+  .items_email1{
+    padding-right: 10px;
+  }
+
+  .email_box,
+  .item_email2{
+    display: flex;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3{
+    border-top: 8px solid rgba(77, 73, 73, 0.4);
+    padding: 50px;
+  }
+  .card-1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 58% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    width: 100%;
+  }
+
+  .desc-1{
+    padding-left: 80px;
+  }
+
+  .heading{
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+
+  .content{
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  .tv_img{
+    position: relative;
+    height: 350px;
+    width: 600px;
+  }
+  
+  .gif_img{
+    position: absolute;
+    height: 260px;
+    width: 428px;
+    left: 63.3%;
+    bottom: 27.6%;
+    z-index: -1;
+  }
+
+  .card-2{
+    display: flex;
+    display: inline-grid;
+    grid-template-columns: 63.2% 40%;
+    width: 100%;
+    position: relative;
+    text-align: left;
+    align-items: center;
+  }
+
+  .gif_img2{
+    height: 350px;
+  }
+
+  .desc-2{
+    padding-left: 76px;
+  }
+
+.heading2{
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.content2{
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.card-3{
+  display: flex;
+  display: inline-grid;
+  grid-template-columns: 62% 20%;
+  width: 100%;
+  text-align: left;
+  align-items: center;
+}
+
+.desc-3{
+  padding: 80px;
+}
+
+.gif_img3{
+  height: 300px;
+  width: 500px;
+}
+
+.content3{
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.heading3{
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.email_box2{
+  display: flex;
+  padding-left: 450px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom:8px solid rgba(65, 60, 60, 0.501);
+}
+
+.item_email11{
+  padding-right: 10px;
+}
+
+.dropdown_container2{
+  border:3px solid rgba(193, 189, 189, 0.542);
+  border-radius: 10px;
+  height: 10px;
+  width: 140px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-top: 5px;
+  margin-left: 175px;
+  margin-bottom: 50px;
+}
+
+.language_drop_down2{
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.footer,
+.footer a{
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.footer p{
+  margin-bottom: 1.5rem;
+  padding-left: 175px;
+  padding-top: 50px;
+}
+
+.footer .footer_coloum{
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  grid-gap: 0rem;
+  padding-left: 175px;
+  margin-bottom: 30px;
+}
+
+
+.footer li{
+  line-height: 2.5;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.Netflix_text{
+  color: rgb(168, 162, 162);
+  margin-left: 175px;
+  margin-bottom: 20px;
+}
