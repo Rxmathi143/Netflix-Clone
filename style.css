@@ -22,7 +22,7 @@
   
   .navbar_netflix {
     height: 100%;
-    width: 125px;
+    width: 13%;
   }
   
   .navbar_nav_items {
@@ -66,9 +66,8 @@
   }
 
   .hero_bg_img{
-    width: 1518px;
-    height: 782px;
-    margin: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 
@@ -146,14 +145,17 @@
     border-top: 8px solid rgba(77, 73, 73, 0.4);
     padding: 50px;
   }
+  
   .card-1{
-    position: relative;
+    display: flex;
     display: inline-grid;
-    grid-template-columns: 58% 40%;
+    grid-template-columns: 63.2% 40%;
+    width: 100%;
+    position: relative;
     text-align: left;
     align-items: center;
-    padding: 25px 45px 50px;
-    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .desc-1{
@@ -172,16 +174,20 @@
 
   .tv_img{
     position: relative;
-    height: 350px;
-    width: 600px;
+    top: 3%;
+    height: 100%;
+    width: 100%;
+    left: -2%;
+    bottom: 80%;
   }
   
   .gif_img{
     position: absolute;
-    height: 260px;
-    width: 428px;
-    left: 63.3%;
-    bottom: 27.6%;
+    height: 50%;
+    width: 27%;
+    left: 66.8%;
+    top: 24.5%;
+    bottom: 150px;
     z-index: -1;
   }
 
