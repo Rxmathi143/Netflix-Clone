@@ -143,7 +143,7 @@
   .card-2,
   .card-3{
     border-top: 8px solid rgba(77, 73, 73, 0.4);
-    padding: 50px;
+    padding: 3%;
   }
   
   .card-1{
@@ -159,7 +159,7 @@
   }
 
   .desc-1{
-    padding-left: 80px;
+    padding-left: 6%;
   }
 
   .heading{
@@ -187,7 +187,7 @@
     width: 27%;
     left: 66.8%;
     top: 24.5%;
-    bottom: 150px;
+    bottom: 12%;
     z-index: -1;
   }
 
@@ -202,11 +202,12 @@
   }
 
   .gif_img2{
-    height: 350px;
+    height: 89%;
+    width: 89%;
   }
 
   .desc-2{
-    padding-left: 76px;
+    padding-left: 6%;
   }
 
 .heading2{
@@ -229,7 +230,7 @@
 }
 
 .desc-3{
-  padding: 80px;
+  padding: 6%;
 }
 
 .gif_img3{
